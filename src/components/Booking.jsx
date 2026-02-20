@@ -6,7 +6,7 @@ const Booking = ({ bookings, setBookings }) => {
     name: "",
     service: "",
     date: "",
-    time: ""
+    time: "",
   });
 
   const handleChange = (e) => {
