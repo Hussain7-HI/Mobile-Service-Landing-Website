@@ -6,6 +6,15 @@ body {
 
 }
 
+.logo {
+  font-size: 1.5rem;
+  font-weight: bolder;
+  font-style: italic;
+  color: white; 
+}
+
+
+
 .section {
   
   justify-content: center;
@@ -18,11 +27,17 @@ body {
 .navbar {
   display: flex;
   justify-content: space-between;
-  padding: 30px;
+  padding: 25px;
   background: #515c67;
   color: rgb(20, 20, 20);
   position: sticky;
   top: 0;
+}
+.navbar-links {
+  font-weight: bold;
+}
+.navbar li a:hover {
+  color: rgb(235, 91, 118);
 }
 
 .navbar ul {
@@ -30,15 +45,16 @@ body {
   gap: 20px;
   list-style: none;
 }
-
 .navbar a {
   color: white;
   text-decoration: none;
 }
 
+
+
 .home {
   
-      background: linear-gradient(135deg, white, rgb(7, 62, 101));
+      background: linear-gradient(135deg, rgb(244, 240, 240), rgb(7, 62, 101));
 
   color: rgb(242, 238, 238);
   background-image: url("./assets/image2.jpg");
@@ -52,6 +68,7 @@ body {
   box-shadow: 0 10px 25px rgba(0,0,0,0.08);
   transition: 0.4s ease;
   overflow: hidden;
+  
 }
 .cards {
   display: grid;
@@ -64,8 +81,9 @@ body {
 
 .card {
   margin-top: 20px;
-  
-        background: linear-gradient(135deg, white, rgb(7, 62, 101));
+  background: linear-gradient(45deg, #ff512f, #dd2476);
+  color: white;
+
   padding: 20px;
   width: 300px;
   border-radius: 10px;
@@ -96,9 +114,10 @@ body {
 }
 
 button {
-  margin-top: 20px;
-  padding: 20px 40px;
-  background: orange;
+  margin-top: 10px;
+  padding: 20px 20px;
+    background: linear-gradient(45deg, #ff512f, #dd2476);
+
   border: none;
   color: white;
   cursor: pointer;
@@ -140,8 +159,8 @@ button {
 
 /* Mobile Frame */
 .mobile-frame {
-  width: 320px;
-  height: 390px;
+  width: 277px;
+  height: 353px;
   background: #1b1a1a;
   border-radius: 40px;
   
@@ -175,14 +194,16 @@ button {
 }
 
 .screen-content p {
-  color: #555;
-  font-size: 14px;
+  color:black;
+  font-size: 18px;
+  font-style:bold;
 }
 
 .mini-btn {
   margin-top: 15px;
   padding: 20px;
-  background: orange;
+    background: linear-gradient(45deg, #ff512f, #dd2476);
+
   border: none;
   color: white;
   border-radius: 20px;
@@ -199,6 +220,12 @@ button {
 }
 
 /* App UI */
+.app{
+  display:flex;
+  margin-top: 15px;
+  justify-content: space-between;
+
+}
 .app-ui {
   text-align: center;
 }
@@ -214,13 +241,24 @@ button {
   margin-bottom: 20px;
 }
 
-.app-card {
+.app-card1 {
   background: #1c1b1b;
-  padding: 12px;
-  margin-bottom: 12px;
+  padding: 11px;
+  margin-bottom: 17px;
   border-radius: 15px;
   box-shadow: 0 5px 15px rgba(0,0,0,0.08);
-  font-size: 14px;
+  font-size: 13px;
+  width: 100px;
+}
+
+.app-card2 {
+  background: #1c1b1b;
+  padding: 11px;
+  margin-bottom: 17px;
+  border-radius: 15px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+  font-size: 13px;
+  width: 100px;
 }
 
 .app-btn {
@@ -386,7 +424,7 @@ button {
 
 .left-panel {
   flex: 1;
- background: linear-gradient(135deg, white, rgb(7, 62, 101));
+ background: linear-gradient(135deg, rgb(244, 241, 241), rgb(7, 62, 101));
   color:linear-gradient(135deg, white, rgb(186, 197, 206));
   display: flex;
   flex-direction: column;
@@ -487,7 +525,7 @@ button {
 
 #contact {
   
-      background: linear-gradient(135deg, white, rgb(7, 62, 101));
+      background: linear-gradient(135deg, rgb(240, 238, 238), rgb(7, 62, 101));
 
   padding: 100px 20px;
 }
@@ -495,13 +533,14 @@ button {
 /* Contact Info Text */
 #contact p {
   color: #2c2a2a;
-  font-size: 22px;
+  font-size: 20px;
+  font-style: italic;
   margin-bottom: 8px;
 }
 
 /* Contact Form Container */
 .contact-form {
-  max-width: 450px;
+  max-width: 350px;
   margin: 40px auto;
   padding: 40px 30px;
   background:white;
@@ -537,9 +576,9 @@ button {
 
 /* Button */
 .contact-form button {
-  width: 100%;
+  width: 55%;
   padding: 20px;
-  background: linear-gradient(90deg, #ff8800, #ff4d4d);
+  background: linear-gradient(45deg, #ff512f, #dd2476);
   border: none;
   border-radius: 30px;
   color: white;
@@ -578,7 +617,7 @@ button {
 }
 /* Hover Shine Effect */
 .price-table tbody tr:hover td:last-child {
-  color: #88f186;
+
   transform: scale(1.1);
   transition: 0.3s;
 }
@@ -609,8 +648,10 @@ button {
 
   color: rgb(20, 19, 19);
   padding: 15px;
-  margin-left: 500px;
+  margin-left: 450px;
 }
+
+
 
 
 

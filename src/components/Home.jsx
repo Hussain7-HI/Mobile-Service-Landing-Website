@@ -12,11 +12,15 @@ const Home = () => {
       <div className="screen-content">
         <h2>Techcare pro </h2>
         <p>Repair Booking App</p>
-        <div className="app-card">
+
+        <div className="app">
+        <div className="app-card1">
           <span>📱 Screen Repair</span>
         </div>
-        <div className="app-card">
+      
+        <div className="app-card2">
           <span>💻 Laptop Service</span>
+        </div>
         </div>
         <button className="mini-btn">Book Service</button>
 
